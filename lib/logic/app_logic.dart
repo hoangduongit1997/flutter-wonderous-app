@@ -23,7 +23,8 @@ class AppLogic {
     // Localizations load
     await localeLogic.load();
     // Data load
-    await timelineLogic.init();
+    wondersLogic.init();
+    timelineLogic.init();
     // Settings load
     await settingsLogic.load();
     // Collectibles init
